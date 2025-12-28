@@ -1,3 +1,4 @@
+//conversion to Number
 let score="33"
 console.log(score)//33
 console.log(typeof score)//string
@@ -28,3 +29,15 @@ let score5=true
 let valueInNumber6=Number(score5)
 console.log(valueInNumber6)//1
 console.log(typeof valueInNumber6)//number
+// conversion to String
+let someNumber= 33
+let stringNumber=String(someNumber)
+console.log(stringNumber)//33
+console.log(typeof stringNumber)//String
+// conversion to boolean
+let isLoggedin=1
+let booleanIsloggedin=Boolean(isLoggedin)
+console.log(booleanIsloggedin)//true
+console.log(typeof booleanIsloggedin)//boolean
+// "" (Empty String) => false
+// "hitesh" (Non-empty String) => true
