@@ -1,11 +1,10 @@
 // Function Definition
 function sayMyName(){
+    console.log("T");
+    console.log("U");
     console.log("H");
     console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
+    console.log("N");
 }
 
 // Function Execution (Reference vs Execution)
@@ -36,5 +35,5 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("tuhin"))
+// console.log(loginUserMessage("tuhin"))
