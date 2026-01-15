@@ -27,3 +27,12 @@ function processUserInput(callback) {
 processUserInput(function(name) {
   return "Hello, " + name + "!";
 }); // Output: Hello, Charlie!
+//nested function
+function outerFunction(x) {
+  function innerFunction(y) {
+    return x + y;
+  }
+  return innerFunction;
+}
+const add5 = outerFunction(5);
+console.log(add5(3)); // Output: 8
