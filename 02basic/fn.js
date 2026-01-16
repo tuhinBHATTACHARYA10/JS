@@ -36,3 +36,10 @@ function outerFunction(x) {
 }
 const add5 = outerFunction(5);
 console.log(add5(3)); // Output: 8
+// Output: 8
+//default parameters
+function multiply(a, b = 2) {
+  return a * b;
+}
+console.log(multiply(3)); // Output: 6
+// Output: 6
