@@ -43,3 +43,7 @@ function multiply(a, b = 2) {
 }
 console.log(multiply(3)); // Output: 6
 // Output: 6
+//rest parameters
+function sum(...numbers) {
+  return numbers.reduce((acc, curr) => acc + curr, 0);
+}
