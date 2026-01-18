@@ -47,3 +47,4 @@ console.log(multiply(3)); // Output: 6
 function sum(...numbers) {
   return numbers.reduce((acc, curr) => acc + curr, 0);
 }
+console.log(sum(1, 2, 3, 4)); // Output: 10
