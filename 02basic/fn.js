@@ -48,3 +48,8 @@ function sum(...numbers) {
   return numbers.reduce((acc, curr) => acc + curr, 0);
 }
 console.log(sum(1, 2, 3, 4)); // Output: 10
+// Output: 10
+const numbers = [1, 2, 3];
+console.log(sum(...numbers)); // Output: 6
+
+
