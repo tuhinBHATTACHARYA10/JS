@@ -1,5 +1,5 @@
 let myDate=new Date()
-console.log(myDate)
+console.log(myDate)//2025-12-29T14:54:50.184Z
 console.log(myDate.toString())//Mon Dec 29 2025 20:21:48 GMT+0530 (India Standard Time)
 console.log(myDate.toDateString())//Mon Dec 29 2025
 console.log(myDate.toISOString())//2025-12-29T14:54:50.184Z
