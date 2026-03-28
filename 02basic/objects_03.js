@@ -3,12 +3,8 @@ const course={
     price:"999",
     courceInstructor:'hitesh'
 }
-// Old way to access properties
-// console.log(course.courseInstructor);
-
-//modern way to access properties(dysstructuring)
-const{courceInstructor}=course
-console.log(courceInstructor)
-// Destructuring with Renaming
-const{courceInstructor:instructor}=course
-console.log(instructor)
+console.log(course.courceInstructor)// Accessing object properties using dot notation
+const{courceInstructor}=course// Object Destructuring
+console.log(courceInstructor)// Accessing object properties using object destructuring
+const{courceInstructor:instructor}=course// Object Destructuring with renaming
+console.log(instructor)// Accessing object properties using object destructuring with renaming

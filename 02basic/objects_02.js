@@ -35,12 +35,12 @@ const user=[
         email:'tuhin@gmail.com'
     },
     {
-        id:1,
-        email:'tuhin@gmail.com'
+        id:2,
+        email:'anshu@gmail.com'
     },
     {
-        id:1,
-        email:'tuhin@gmail.com'
+        id:3,
+        email:'jyoti@gmail.com'
     },
 ]
 // Accessing Array of Objects

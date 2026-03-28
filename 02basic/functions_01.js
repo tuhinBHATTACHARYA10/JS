@@ -27,8 +27,8 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
-    if(!username){
+function loginUserMessage(username = "sam"){// Default Parameter
+    if(!username){//(username === undefined || username === null || username === "")
         console.log("PLease enter a username");
         return
     }
