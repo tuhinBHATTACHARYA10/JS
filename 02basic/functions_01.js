@@ -1,3 +1,4 @@
+/*
 // Function Definition
 function sayMyName(){
     console.log("T");
@@ -34,6 +35,15 @@ function loginUserMessage(username = "sam"){// Default Parameter
     }
     return `${username} just logged in`
 }
-
+*/
 // console.log(loginUserMessage("tuhin"))
 // console.log(loginUserMessage("tuhin"))
+var sum=0
+function addnums(...numbers){
+    for(let i=0;i<numbers.length;i++){//also use arguments
+        
+        sum+=numbers[i]
+    }
+    console.log(sum)
+}
+addnums(1,2,3,4,5)
